@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import { Button } from '@/components/ui/button';
+
 export default function Home() {
   return (
     <main className='flex min-h-screen flex-col items-center justify-between p-24'>
@@ -14,11 +16,8 @@ export default function Home() {
           boilerplate comes equipped with a powerful toolkit of packages to
           simplify your development process.
         </p>
-        <Link
-          href='https://github.com/FUA26/banda-ui-nextjs'
-          className='mt-4 w-fit rounded-lg bg-foreground px-6 py-2 text-background'
-        >
-          Github Repository
+        <Link href='https://github.com/FUA26/banda-ui-nextjs'>
+          <Button>Github Repository</Button>
         </Link>
       </div>
 

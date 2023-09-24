@@ -5,19 +5,19 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 60 4% 17%;
 
-    --tw-color-primary-100: 224 240 254;
-    --tw-color-primary-300: 124 200 253;
-    --tw-color-primary-500: 12 148 235;
-    --tw-color-primary-700: 1 92 163;
-    --tw-color-primary-900: 11 66 111;
+    --tw-color-primary-100: 246 235 203;
+    --tw-color-primary-300: 239 214 153;
+    --tw-color-primary-500: 227 176 76;
+    --tw-color-primary-700: 221 156 50;
+    --tw-color-primary-900: 205 134 37;
 
-    --tw-color-secondary-100: 255 241 213;
-    --tw-color-secondary-300: 255 200 114;
-    --tw-color-secondary-500: 252 137 19;
-    --tw-color-secondary-700: 196 82 10;
-    --tw-color-secondary-900: 125 54 17;
+    --tw-color-secondary-100: 253 248 239;
+    --tw-color-secondary-300: 249 238 219;
+    --tw-color-secondary-500: 241 214 171;
+    --tw-color-secondary-700: 253 248 239;
+    --tw-color-secondary-900: 225 160 86;
 
     --tw-color-info-100: 218 240 255;
     --tw-color-info-300: 145 216 255;
