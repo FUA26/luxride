@@ -9,7 +9,7 @@ import { Icons } from '../ui/icons';
 
 const Header = () => {
   return (
-    <header className='bg-backgroundpx-6  w-full '>
+    <header className='w-full bg-background  px-6 '>
       <Container>
         <div className='flex'>
           <div className='flex h-20 w-full items-center'>
@@ -23,12 +23,14 @@ const Header = () => {
                 </li>
               ))}
               <Link href='/'>
-                <Button variant='outline' className='w-max'>
+                <Button variant='subtle-primary' size='sm' className='w-max'>
                   Log In
                 </Button>
               </Link>
               <Link href='/' className='w-max'>
-                <Button>Sing Up</Button>
+                <Button size='sm' variant='outline'>
+                  Sing Up
+                </Button>
               </Link>
             </ul>
           </nav>

@@ -7,11 +7,11 @@ import React from 'react';
 import { cn } from '@/lib/utils';
 
 const menuItemVariants = cva(
-  'inline-flex text-mute-foreground items-center min-h-[2.75rem] rounded-lg leading-none transition-colors text-sm font-medium w-full mb-1',
+  'inline-flex text-foreground items-center h-8 rounded-lg leading-none transition-colors text-sm font-medium w-full mb-1',
   {
     variants: {
       variant: {
-        default: 'bg-transparent text-muted-foreground  hover:bg-foreground/5',
+        default: 'bg-transparent text-foreground  hover:bg-foreground/5',
         active: 'bg-primary/20 text-primary fill hover:bg-primary/30',
       },
     },
